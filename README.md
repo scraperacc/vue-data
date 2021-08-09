@@ -24,6 +24,8 @@ For every directive / data binding in the template, there will be a correspondin
 
 Due to the limitation of ES5, Vue.js **cannot detect property addition or deletion**. Since Vue.js performs the getter/setter conversion process during instance initialization, a property must be present in the data object in order for Vue.js to convert it and make it reactive.
 
+### see alll examples [![Edit JSX - Element: React.createElement](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/gifted-pike-3mjx2?file=/src/components/ExampleOfIncorrectDefineData.vue)
+
 For example:
 
 ```vue
